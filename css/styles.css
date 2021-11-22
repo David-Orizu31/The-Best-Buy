@@ -348,6 +348,11 @@ color: #c81432 !important;
     transform: translate(-50%, -50%);
   }
 
+  .product-price p:nth-child(1) {
+    color: #c81432;
+    font-weight: 600;
+  }
+
   #myBtn {
     display: none;
     position: fixed;
