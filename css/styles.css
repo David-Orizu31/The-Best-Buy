@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap');
 
+/* Home Page Styles */
+
 html, body {
     max-width: 100% !important;
     overflow-x: hidden;
@@ -136,6 +138,10 @@ color: #c81432 !important;
     -webkit-transform-origin: 15% 95%;
             transform-origin: 15% 95%;
   }
+
+  ul.nav li.navdrop-toggle:hover ul.navdrop-menu {
+    display: block !important;
+}
 
   .dropdown:hover .navdrop-menu {display: block;}
 
@@ -353,6 +359,10 @@ color: #c81432 !important;
     font-weight: 600;
   }
 
+  .product-price p:nth-child(2) {
+    line-height: 0.5em;
+  }
+
   #myBtn {
     display: none;
     position: fixed;
@@ -414,6 +424,11 @@ color: #c81432 !important;
 
   .foot-head2 {
     text-align: center;   
+  }
+
+  .foot-head2 a {
+    color: black !important;
+    text-decoration: none;
   }
 
   .foot-link {
@@ -479,4 +494,57 @@ color: #c81432 !important;
     .text {
       font-size: 15px;
     }
+  }
+
+ /* Home Page Styles End */
+
+  /* About Us Styles */
+
+  .about-banner {
+    background-image: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url('../img/about-tbb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+  }
+
+  .other-banner-text {
+    margin-top: 150px;
+  }
+
+  .other-text-area p{
+    line-height: 2em;
+    font-size: 20px;
+  }
+
+  .btn-learn {
+    color: white !important;
+    background-color: #c81432 !important;
+    border-radius: 0px !important;
+    border: 1px solid #c81432 !important;
+  }
+
+  .btn-learn:hover {
+    color: #c81432 !important;
+    background-color: white !important;
+  }
+
+  /* About Styles End */
+
+  /* Our Mission Styles */
+  .mission-banner {
+    background-image: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url('../img/mission-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+  }
+
+  .mission-text {
+    font-size: 16px;
+  }
+
+  .mission-list {
+    line-height: 2em;
+    font-size: 18px;
   }
