@@ -548,3 +548,29 @@ color: #c81432 !important;
     line-height: 2em;
     font-size: 18px;
   }
+
+  /* End Mission Styles */
+
+  /* Values Styles */
+  .values-banner {
+    background-image: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url('../img/our-values.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+  }
+  /* End Values Styles */
+
+  /* History Styles */
+  .history-banner {
+    background-image: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url('../img/history-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+  }
+
+  .italic {
+   font-style: italic;
+    font-weight: 600;
+  }
