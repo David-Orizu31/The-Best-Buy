@@ -354,6 +354,10 @@ color: #c81432 !important;
     transform: translate(-50%, -50%);
   }
 
+  .overlay .text span {
+    font-size: 30px;
+  }
+
   .product-price p:nth-child(1) {
     color: #c81432;
     font-weight: 600;
@@ -637,3 +641,32 @@ color: #c81432 !important;
       color: #c81432 !important;
       font-weight: 600;
     }
+    /* End Faq Styles */
+
+    /* Jewelry Styles */
+    .jewelry-banner {
+      background-image: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url('../img/jewelry-banner.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 500px;
+    }
+    /* End Jewelry Styles */
+
+    /* Men's Jewelry Styles */
+    .menjewel-banner {
+      background-image: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url('../img/mens-jewelry-banner.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 500px;
+    }
+
+    .new-banner {
+      background-image: linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url('../img/mens-jewelry-banner.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 500px;
+    }
+
